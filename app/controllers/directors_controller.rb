@@ -1,5 +1,5 @@
 class DirectorsController < ApplicationController
-  def index
+  def index 
     directors = Director.all
   end
 

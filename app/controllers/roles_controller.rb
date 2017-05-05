@@ -23,7 +23,7 @@ class RolesController < ApplicationController
 
   def edit_form
     @role = Role.find(params[:id])
-  end
+  end 
 
   def update_row
     @role = Role.find(params[:id])
